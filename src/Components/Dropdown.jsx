@@ -4,7 +4,7 @@ export default function Dropdown({ filteredCities, handleCitySelect }) {
   return (
     <div
       className="absolute left-0 right-0 bg-white border border-gray-300 rounded-md mt-1 shadow-lg z-10 
-max-h-60 overflow-y-auto"
+       max-h-60 overflow-y-auto"
     >
       {filteredCities.length > 0 ? (
         filteredCities.map((city, index) => (

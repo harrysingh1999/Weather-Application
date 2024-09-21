@@ -1,8 +1,6 @@
 import React from "react";
 
 const WeatherDisplay = ({ isCelsius, weather }) => {
-  console.log(weather);
-
   const temperature = weather.temp.toFixed(1);
   const condition = weather.currentConditions.conditions;
 

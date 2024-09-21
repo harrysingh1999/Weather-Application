@@ -4,11 +4,34 @@ This is a simple weather forecast application built using **React.js** that allo
 
 ## Features
 
-- **City Search**: Search for cities with a dropdown modal that shows matching cities from a predefined list.
-- **Weather Display**: Shows the current weather information for the selected city.
-- **5-Day Forecast**: Displays the forecast for the next 5 days with high and low temperatures.
-- **Unit Toggle**: Toggle temperature units between Celsius and Fahrenheit.
-- **Error Handling**: Displays an error message if the city is not found.
+- **City Search**: 
+  - A custom input component that opens a dropdown modal with a search box for city selection.
+  - Users can search for cities from a predefined list or enter new city names.
+
+- **Weather Display**:
+  - Displays current weather information, including:
+    - City name
+    - Current temperature
+    - Weather condition (e.g., sunny, rainy)
+    - Weather icon according to the condition
+
+- **5-Day Forecast**:
+  - Shows the forecast for the next 5 days, including:
+    - Day of the week
+    - High and low temperatures
+    - Weather icons for each day's forecast
+
+- **Temperature Unit Toggle**: 
+  - Toggle between Celsius and Fahrenheit for temperature display.
+
+- **Error Handling**:
+  - Displays an error message if a city is not found or if there are issues fetching data.
+
+- **Responsive Design**:
+  - The application is designed to be fully responsive, ensuring a good user experience across various devices.
+
+- **Lazy Loading**:
+  - Non-critical components such as the `ErrorComponent` and `Dropdown` are lazily loaded to improve initial load performance.
 
 ## Setup Instructions
 
@@ -17,7 +40,7 @@ This is a simple weather forecast application built using **React.js** that allo
 Start by cloning the project to your local machine:
 
 ```bash
-git clone https://github.com/your-username/weather-forecast-app.git
+git clone https://github.com/harrysingh1999/propacityAssignment.git
 ```
 
 ### 2. Install Dependencies

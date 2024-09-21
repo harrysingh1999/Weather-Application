@@ -23,12 +23,10 @@ const App = () => {
       const response = await fetch(apiUrl);
       if (!response.ok) throw new Error("City not found");
       const data = await response.json();
-      console.log(data);
 
       setWeatherData(data);
       setLoading(false);
     } catch (error) {
-      console.log(error);
       setError(error.message);
       setLoading(false);
     }

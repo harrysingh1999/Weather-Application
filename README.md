@@ -40,7 +40,7 @@ This is a simple weather forecast application built using **React.js** that allo
 Start by cloning the project to your local machine:
 
 ```bash
-git clone https://github.com/harrysingh1999/propacityAssignment.git
+git clone https://github.com/harrysingh1999/Weather-Application.git
 ```
 
 ### 2. Install Dependencies
